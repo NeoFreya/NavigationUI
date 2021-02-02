@@ -84,6 +84,27 @@ struct SettingView: View {
                     }
                 }
                 
+                // Tema dan Template Youtube
+                Section(header : Text("Tema dan Template")){
+                    HStack(spacing : 20){
+                        Image(systemName: "moon.fill")
+                            .frame(width : 35, height: 35)
+                            .background(Color.black)
+                            .foregroundColor(Color.white)
+                            .cornerRadius(10)
+                        Text("Tema Malam")
+                    }
+                    
+                    HStack(spacing : 20){
+                        Image(systemName: "paintbrush.fill")
+                            .frame(width : 35, height: 35)
+                            .background(Color.pink)
+                            .foregroundColor(.white)
+                            .cornerRadius(10)
+                        Text("Template")
+                    }
+                }
+                
             }.navigationBarTitle("Setting")
         }
     }

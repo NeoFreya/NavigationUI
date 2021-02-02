@@ -90,7 +90,7 @@ struct Home : View {
                         }
                     }
             )
-            .navigationBarTitle("", displayMode: .inline)
+                .navigationBarTitle("", displayMode: .inline)
         }.navigationViewStyle(StackNavigationViewStyle())
     }
 }
@@ -135,77 +135,77 @@ struct Content : View {
             }
             
             //Konten 2
-                       VStack{
-                           ZStack(alignment: .bottomTrailing){
-                               Image("kokbisa_kesehatan")
-                                   .resizable()
-                                   .aspectRatio(contentMode: .fill)
-                               Text("15:00")
-                                   .padding()
-                                   .foregroundColor(Color.white)
-                                   .font(.caption)
-                                   .background(Color.black)
-                                   .cornerRadius(5)
-                                   .padding(.trailing, 5)
-                                   .padding(.bottom, 5)
-                               
-                           }
-                           
-                           HStack(spacing: 20){
-                               Image("kok_bisa")
-                                   .resizable()
-                                   .frame(width : 30, height: 30)
-                                   .clipShape(Circle())
-                               VStack(alignment : .leading){
-                                   Text("Apa Itu Ilmu 'Kesehatan?' / 'kedokteran Sebenarnya?'")
-                                       .font(.headline)
-                                   HStack{
-                                       Text("ini adalah deskripsi video kita - 300x ditonton - 9 jam yang lalu")
-                                           .font(.caption)
-                                   }
-                               }
-                               Spacer()
-                               Image(systemName: "list.bullet")
-                           }
-                           
-                       }
+            VStack{
+                ZStack(alignment: .bottomTrailing){
+                    Image("kokbisa_kesehatan")
+                        .resizable()
+                        .aspectRatio(contentMode: .fill)
+                    Text("15:00")
+                        .padding()
+                        .foregroundColor(Color.white)
+                        .font(.caption)
+                        .background(Color.black)
+                        .cornerRadius(5)
+                        .padding(.trailing, 5)
+                        .padding(.bottom, 5)
+                    
+                }
+                
+                HStack(spacing: 20){
+                    Image("kok_bisa")
+                        .resizable()
+                        .frame(width : 30, height: 30)
+                        .clipShape(Circle())
+                    VStack(alignment : .leading){
+                        Text("Apa Itu Ilmu 'Kesehatan?' / 'kedokteran Sebenarnya?'")
+                            .font(.headline)
+                        HStack{
+                            Text("ini adalah deskripsi video kita - 300x ditonton - 9 jam yang lalu")
+                                .font(.caption)
+                        }
+                    }
+                    Spacer()
+                    Image(systemName: "list.bullet")
+                }
+                
+            }
             
             
             //Konten 3
-                       VStack{
-                           ZStack(alignment: .bottomTrailing){
-                               Image("kokbisa_kimia")
-                                   .resizable()
-                                   .aspectRatio(contentMode: .fill)
-                               Text("15:00")
-                                   .padding()
-                                   .foregroundColor(Color.white)
-                                   .font(.caption)
-                                   .background(Color.black)
-                                   .cornerRadius(5)
-                                   .padding(.trailing, 5)
-                                   .padding(.bottom, 5)
-                               
-                           }
-                           
-                           HStack(spacing: 20){
-                               Image("kok_bisa")
-                                   .resizable()
-                                   .frame(width : 30, height: 30)
-                                   .clipShape(Circle())
-                               VStack(alignment : .leading){
-                                   Text("Kenapa Sepak Bola Olahraga Yang Paling Populer?")
-                                       .font(.headline)
-                                   HStack{
-                                       Text("Apa Itu Ilmu 'Kimia' Sebenarnya? Apa Gunanya Di Hidup Kita?")
-                                           .font(.caption)
-                                   }
-                               }
-                               Spacer()
-                               Image(systemName: "list.bullet")
-                           }
-                           
-                       }
+            VStack{
+                ZStack(alignment: .bottomTrailing){
+                    Image("kokbisa_kimia")
+                        .resizable()
+                        .aspectRatio(contentMode: .fill)
+                    Text("15:00")
+                        .padding()
+                        .foregroundColor(Color.white)
+                        .font(.caption)
+                        .background(Color.black)
+                        .cornerRadius(5)
+                        .padding(.trailing, 5)
+                        .padding(.bottom, 5)
+                    
+                }
+                
+                HStack(spacing: 20){
+                    Image("kok_bisa")
+                        .resizable()
+                        .frame(width : 30, height: 30)
+                        .clipShape(Circle())
+                    VStack(alignment : .leading){
+                        Text("Kenapa Sepak Bola Olahraga Yang Paling Populer?")
+                            .font(.headline)
+                        HStack{
+                            Text("Apa Itu Ilmu 'Kimia' Sebenarnya? Apa Gunanya Di Hidup Kita?")
+                                .font(.caption)
+                        }
+                    }
+                    Spacer()
+                    Image(systemName: "list.bullet")
+                }
+                
+            }
             
             
         }
