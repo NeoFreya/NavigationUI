@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E619C1E625C8FE4F005B1BE8 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E619C1E525C8FE4F005B1BE8 /* SettingView.swift */; };
 		E6E7A16725C3B7B400AFED73 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E7A16625C3B7B400AFED73 /* AppDelegate.swift */; };
 		E6E7A16925C3B7B400AFED73 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E7A16825C3B7B400AFED73 /* SceneDelegate.swift */; };
 		E6E7A16B25C3B7B400AFED73 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E7A16A25C3B7B400AFED73 /* ContentView.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E619C1E525C8FE4F005B1BE8 /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
 		E6E7A16325C3B7B400AFED73 /* NavigationUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavigationUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6E7A16625C3B7B400AFED73 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E6E7A16825C3B7B400AFED73 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				E6E7A17125C3B7B600AFED73 /* LaunchScreen.storyboard */,
 				E6E7A17425C3B7B600AFED73 /* Info.plist */,
 				E6E7A16E25C3B7B600AFED73 /* Preview Content */,
+				E619C1E525C8FE4F005B1BE8 /* SettingView.swift */,
 			);
 			path = NavigationUI;
 			sourceTree = "<group>";
@@ -147,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E6E7A16725C3B7B400AFED73 /* AppDelegate.swift in Sources */,
+				E619C1E625C8FE4F005B1BE8 /* SettingView.swift in Sources */,
 				E6E7A16925C3B7B400AFED73 /* SceneDelegate.swift in Sources */,
 				E6E7A16B25C3B7B400AFED73 /* ContentView.swift in Sources */,
 			);
